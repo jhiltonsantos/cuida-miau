@@ -1,0 +1,338 @@
+/* Estilos Gerais*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 14px;
+  color: #3b3125;
+}
+
+img {
+  display: block;
+}
+
+.button {
+  border: 3px solid #fcfae0;
+  border-radius: 3px;
+  padding: 12px 40px;
+  background-color: #fcfae0;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  color: #3b3125;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.button:hover {
+  color: #fcfae0;
+  background-color: #ee9059;
+  border-color: #ee9059;
+}
+
+.button.button-adote {
+  border: 3px solid #ee9059;
+  padding: 12px 34px;
+  background-color: #ee9059;
+  color: #3b3125;
+}
+
+.button.button-adote:hover {
+  color: #ee9059;
+  background-color: #fcfae0;
+  border-color: #fcfae0;
+}
+
+.subtitle {
+  font-weight: regular;
+  font-size: 24px;
+  line-height: 40px;
+  color: #3b3125;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.subtitle:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3b3125;
+  margin: 5px auto;
+  margin-bottom: 40px;
+}
+
+/* Header */
+
+.header {
+  height: 96px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fcfae0;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 36px;
+  margin-top: 25px;
+}
+
+.header_menu ul li a {
+  color: #3b3125;
+  font-weight: regular;
+  letter-spacing: 0.03em;
+  font-size: 24px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #ee9059;
+}
+
+/* Introducao */
+.introduction {
+  height: 350px;
+  width: 100%;
+  background: url("../img/bg-intro.png") no-repeat center;
+  background-size: cover;
+  margin-top: 92px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.introduction h1 {
+  font-size: 48px;
+  color: #3b3125;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.quote-header {
+  max-width: 320px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.quote-header p {
+  font-style: italic;
+}
+
+.quote-header cite {
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  color: #3b3125;
+  font-size: 14px;
+}
+
+.quote-header p:before,
+.quote-header p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3b3125;
+  margin: 15px auto 15px auto;
+}
+
+/* Serviços */
+.services {
+  padding: 60px 0;
+}
+
+.services_list li {
+  background: #ee9059;
+  text-align: center;
+  -webkit-box-shadow: 2px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 3px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.services_list li h3 {
+  font-weight: regular;
+  color: #3b3125;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.services_list li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3b3125;
+  margin: 2px auto;
+}
+
+.services_list li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.services_img {
+  background-size: cover;
+}
+
+.call-to-action-adote {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.call-to-action-adote p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+/* Conheça Nosso Projeto */
+
+.photos-project {
+  width: 100%;
+  background: #ee9059;
+  padding: 30px 0 100px 0;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.photos-project-list li:last-child {
+  margin-top: 20px;
+}
+
+/* Gráfico Nossos Serviços */
+
+.graph-services {
+  padding: 90px 0;
+}
+
+.graph-services:after {
+  content: "";
+  width: 623px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 230px;
+  right: 170px;
+  z-index: -1;
+}
+
+.graph-services img {
+  margin: 0 auto;
+}
+
+.graph-services-list li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.graph-services-list li h3 {
+  font-weight: regular;
+  color: #3b3125;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.graph-services-list li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3b3125;
+  margin: 10px auto;
+}
+
+/* Frase de Quebra */
+
+.quote-bg-footer {
+  width: 100%;
+  height: 300px;
+  background: url("../img/bg-footer.png") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  margin-top: 160px;
+  padding-top: 35px;
+}
+
+.quote-bg-footer .quote-header {
+  max-width: 400px;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  background: #ee9059;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3b3125;
+}
+
+.footer-cuidamiau {
+  padding-right: 30px;
+}
+
+.footer-cuidamiau p {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.footer-cuidamiau .button {
+  border: 3px solid #3b3125;
+  padding: 12px 30px;
+  background-color: #3b3125;
+  color: #fcfae0;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.footer-contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  color: #3b3125;
+}
+
+.footer-contato ul li:first-child {
+  margin-top: 20px;
+}
+
+.footer-redes ul li {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.copyright {
+  width: 100%;
+  background: #3b3125;
+  padding: 20px 0;
+}
+
+.copyright div p {
+  color: #fcfae0;
+}
