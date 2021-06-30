@@ -98,6 +98,11 @@ img {
   color: #ee9059;
 }
 
+.header_menu ul li a.active-menu {
+  color: #ee9059;
+  text-shadow: 0.02em 0.1em 0.3em #d29d76;
+}
+
 /* Introducao */
 .introduction {
   height: 350px;
