@@ -1,59 +1,96 @@
 /* Geral */
 
 .button-ajudar {
-    border: 3px solid #3b3125;
-    border-radius: 3px;
-    padding: 15px 70px;
-    background-color: #3b3125;
-    -webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
-    box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
-    color: #fcfae0;
-    font-size: 18px;
-  }
-  
-  .button-ajudar:hover {
-    color: #3b3125;
-    background-color: #fcfae0;
-    border-color: #fcfae0;
-  }
-  
-  /* Introdução */
-  
-  .introduction-ajudar {
-    background: url("../img/bg-ajudar.jpeg") no-repeat center;
-    background-size: cover;
-  }
+  border: 3px solid #3b3125;
+  border-radius: 3px;
+  padding: 15px 70px;
+  background-color: #3b3125;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  color: #fcfae0;
+  font-size: 18px;
+}
 
-  /* Requisitos*/
+.button-ajudar:hover {
+  color: #3b3125;
+  background-color: #fcfae0;
+  border-color: #fcfae0;
+}
 
-.container-requisitos ul {
-    margin-bottom: 160px;
-  }
-  
-  .container-requisitos ul li {
-    font-size: 16px;
-    line-height: 32px;
-    color: #3b3125;
-    text-align: center;
-  }
-  
-  .subtitle-requisitos {
-    margin-top: 160px;
-    font-weight: regular;
-    font-size: 24px;
-    color: #3b3125;
-    text-transform: lowercase;
-    text-align: center;
-  }
-  
-  .subtitle-requisitos:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: #3b3125;
-    margin: 5px auto;
-    margin-bottom: 30px;
-  }
-  
+/* Introdução */
+
+.introduction-ajudar {
+  background: url("../img/bg-ajudar.png") no-repeat center;
+  background-size: cover;
+}
+
+/* Requisitos*/
+
+.container-ajudar ul {
+  margin-bottom: 30px;
+}
+
+.container-ajudar ul li {
+  font-size: 16px;
+  line-height: 25px;
+  color: #3b3125;
+  text-align: center;
+}
+
+.subtitle-ajudar {
+  margin-top: 160px;
+  font-weight: regular;
+  font-size: 36px;
+  color: #3b3125;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.subtitle-ajudar:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3b3125;
+  margin: 5px auto;
+  margin-bottom: 30px;
+}
+
+.subtitle-ajudar-internal {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-weight: regular;
+  font-size: 24px;
+  color: #3b3125;
+  text-align: center;
+}
+
+.subtitle-ajudar-internal-2 {
+  margin-top: 56 px;
+  margin-bottom: 5px;
+  font-weight: regular;
+  line-height: 24px;
+  font-size: 24px;
+  color: #3b3125;
+  text-align: center;
+}
+
+.subtitle-voluntario {
+  margin-top: 70px;
+  font-weight: normal;
+  font-size: 24px;
+  color: #3b3125;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.subtitle-voluntario:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3b3125;
+  margin: 5px auto;
+  margin-bottom: 30px;
+}

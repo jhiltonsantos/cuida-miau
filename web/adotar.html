@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/adotar.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -52,41 +53,28 @@
   </section>
   <!-- Fecha Requisitos para Adotar -->
 
-
-
-
-
-
   <!-- Formulario Quero Adotar -->
   <section class="quero-adotar">
 
     <div class="container">
       <h2 class="subtitle">Quero Adotar</h2>
       <ul>
-        <li class="grid-8">
-          <form id="form_quero_adotar" class="form-quero-adotar grid-8">
+        <li class="grid-16">
+          <form id="form_quero_adotar" class="form-quero-adotar">
             <label for="name">Nome</label>
             <input type="text" id="name">
             <label for="email">E-mail</label>
             <input type="text" id="email">
             <label for="animal">Qual animal vc quer adotar</label>
             <select name="animal_list" id="select_animal">
-              <option value="select">Selecione...</option>
-              <option value="cachorro">Cachorro</option>
+              <option value="select" class="no-selected">Selecione...</option>
               <option value="gato">Gato</option>
+              <option value="cachorro">Cachorro</option>
+
             </select>
             <label for="mensage">Mensagem</label>
             <textarea type="text" id="mensage"></textarea>
             <button type="submit" class="button-form">Enviar</button>
-          </form>
-
-        </li>
-        <li class="grid-8">
-          <form id="form_quero_adotar" class="form-quero-adotar grid-8">
-            <label for="address">Endereço</label>
-            <input type="text" id="address">
-            <label for="phone">Telefone</label>
-            <input type="text" id="phone">
           </form>
 
         </li>
@@ -97,16 +85,25 @@
   <!-- Fecha Formulario Quero Adotar-->
 
 
-
-
-
-
   <!-- Mapa-->
-  <section class="container-requisitos container">
+  <section class="mapa container">
     <h3 class="subtitle-requisitos">Visite-nos</h3>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.8036798266617!2d-42.77960188597847!3d-5.135290796273249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e313736925ecb%3A0xbe700cea89eacfbc!2sR.%20Cinco%2C%20068%20-%20Bela%20Vista%2C%20Teresina%20-%20PI!5e0!3m2!1spt-BR!2sbr!4v1625054849651!5m2!1spt-BR!2sbr" width="940" height="280" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
   </section>
   <!-- Mapa-->
+
+  <!-- Conheça Nossos Animais -->
+  <section class="photos-project">
+    <div class="container">
+      <h2 class="subtitle">Conheça Nossos Animais</h2>
+      <ul class="photos-project-list">
+        <li class="grid-8"><img src="img/conheca-nosso-animais/foto1.png" alt="animais-foto1"></li>
+        <li class="grid-8"><img src="img/conheca-nosso-animais/foto2.png" alt="animais-foto2"></li>
+        <li class="grid-16"><img src="img/conheca-nosso-animais/foto3.png" alt="animais-foto3"></li>
+      </ul>
+    </div>
+  </section>
+  <!-- Fecha Conheça Nossos Animais-->
 
   <!-- Footer -->
   <section class="quote-bg-footer">

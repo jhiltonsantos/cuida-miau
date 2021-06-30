@@ -41,7 +41,7 @@
 /* Introdução */
 
 .introduction-adotar {
-  background: url("../img/bg-adote.jpg") no-repeat center;
+  background: url("../img/bg-adote.png") no-repeat center;
   background-size: cover;
 }
 
@@ -52,16 +52,17 @@
 }
 
 .container-requisitos ul li {
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 24px;
+  line-height: 40px;
   color: #3b3125;
   text-align: center;
+  font-weight: normal;
 }
 
 .subtitle-requisitos {
   margin-top: 160px;
-  font-weight: regular;
-  font-size: 24px;
+  font-weight: normal;
+  font-size: 36px;
   color: #3b3125;
   text-transform: lowercase;
   text-align: center;
@@ -75,73 +76,4 @@
   background: #3b3125;
   margin: 5px auto;
   margin-bottom: 30px;
-}
-
-/* Formulário */
-
-.quero-adotar {
-  width: 100%;
-  background: #ee9059;
-  margin-top: 160px;
-}
-
-.quero-adotar h2.subtitle {
-  margin-top: 50px;
-  margin-bottom: 40px;
-}
-
-.form-quero-adotar {
-  padding-right: 25px;
-}
-
-.form-quero-adotar label {
-  display: block;
-  color: #3b3125;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 25px;
-  margin-bottom: 5px;
-}
-
-.form-quero-adotar input {
-  width: 100%;
-  display: block;
-  border: 3px solid #3b3125;
-  border-radius: 3px;
-  background: none;
-  color: #fff;
-  padding: 7px;
-  outline-color: #fcfae0;
-  font-size: 16px;
-  font-family: "Helvetica";
-  margin-bottom: 20px;
-}
-
-.form-quero-adotar textarea {
-  width: 100%;
-  height: 100px;
-  display: block;
-  border: 3px solid #3b3125;
-  border-radius: 3px;
-  background: none;
-  color: #fff;
-  padding: 7px;
-  outline-color: #fcfae0;
-  font-size: 16px;
-  font-family: "Helvetica";
-  margin-bottom: 20px;
-}
-
-.form-quero-adotar select {
-  width: 100%;
-  display: block;
-  border: 3px solid #3b3125;
-  border-radius: 3px;
-  background: none;
-  color: #fff;
-  padding: 7px;
-  outline-color: #fcfae0;
-  font-size: 16px;
-  font-family: "Helvetica";
-  margin-bottom: 20px;
 }
