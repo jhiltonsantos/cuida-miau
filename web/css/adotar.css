@@ -1,0 +1,60 @@
+/* Geral */
+
+.button-adotar {
+  border: 3px solid #3b3125;
+  border-radius: 3px;
+  padding: 15px 70px;
+  background-color: #3b3125;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  color: #fcfae0;
+  font-size: 18px;
+}
+
+.button-adotar:hover {
+  color: #3b3125;
+  background-color: #fcfae0;
+  border-color: #fcfae0;
+}
+
+/* Introdução */
+
+.introduction-adotar {
+  background: url("../img/bg-adote.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* Requisitos*/
+
+.container-requisitos ul {
+  margin-bottom: 160px;
+}
+
+.container-requisitos ul li {
+  font-size: 16px;
+  line-height: 32px;
+  color: #3b3125;
+  text-align: center;
+}
+
+.subtitle-requisitos {
+  margin-top: 160px;
+  font-weight: regular;
+  font-size: 24px;
+  color: #3b3125;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.subtitle-requisitos:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #3b3125;
+  margin: 5px auto;
+  margin-bottom: 30px;
+}
+
+
