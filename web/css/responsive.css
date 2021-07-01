@@ -48,6 +48,29 @@
   .header_menu ul li a:hover {
     border-color: #ee9059;
   }
+  /* Conheça Nosso Projeto*/
+  .photos-project {
+    padding: 30px 0 30px 0;
+  }
+
+  .photos-project-list li img:last-child {
+   width: 460px;
+   height: 180px;
+  } 
+
+  /* Quote*/
+
+  .quote-bg-footer {
+    margin-top: 0px;
+    height: 160px;
+    padding-top: 0px;
+  }
+
+  .quote-bg-footer blockquote {
+    text-rendering: optimizeLegibility;
+    font-size: 12px;
+  }
+
 
   /* Introdução */
 
@@ -88,4 +111,63 @@
     padding-left: 0;
     padding-right: 0px;
   }
+
+  /* Footer Mobile */
+
+  .footer {
+    padding: 10px;
+  }
+
+  .footer h3 {
+    font-size: 14px;
+  }
+
+  .footer p {
+    font-size: 9px;
+  }
+
+  .footer h3:after {
+    width: 40px;
+  }
+
+  .footer-cuidamiau p {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .footer-cuidamiau .button {
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+
+  .footer-contato ul li {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .footer-contato ul li:first-child {
+    margin-top: 5px;
+  }
+  
+  .footer-redes ul li {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .footer-redes ul li a img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .copyright {
+    height: 30px;
+    padding: 10px;
+  }
+  
+  .copyright div p {
+    font-size: 9px;
+  }
+
 }
