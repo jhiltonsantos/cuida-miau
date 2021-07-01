@@ -60,17 +60,7 @@
 .subtitle-ajudar-internal {
   margin-top: 60px;
   margin-bottom: 20px;
-  font-weight: regular;
-  font-size: 24px;
-  color: #3b3125;
-  text-align: center;
-}
-
-.subtitle-ajudar-internal-2 {
-  margin-top: 56 px;
-  margin-bottom: 5px;
-  font-weight: regular;
-  line-height: 24px;
+  font-weight: normal;
   font-size: 24px;
   color: #3b3125;
   text-align: center;
