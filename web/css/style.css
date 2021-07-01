@@ -481,3 +481,46 @@ iframe {
   -moz-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.75);
 }
+
+/* Pop-up */
+
+.toast {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  right: 0;
+  margin: auto;
+
+  max-width: 400px;
+  padding: 6px;
+  background: #ee9059;
+  color: #fcfae0;
+  font-size: sans-serif;
+  text-align: center;
+  border: 3px solid #ee9059;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, top 0.2s, visibility 0.2s;
+}
+
+.toast--visible {
+  top: 10px;
+  visibility: visible;
+  opacity: 1;
+}
+
+.toast--success {
+  background: #ee9059;
+  color: #fcfae0;
+  border: 3px solid #ee9059;
+}
+
+.toast--error {
+  background: #3b3125;
+  color: #fcfae0;
+  border: 3px solid #3b3125;
+}

@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/ajudar.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/form.js"></script>
 </head>
 
 <body>
@@ -88,14 +89,14 @@
         <li class="form-quero-adotar">
           <form id="form_quero_adotar">
             <label for="name">Nome</label>
-            <input type="text" id="name">
+            <input type="text" id="name_id" name="name" required="required">
             <label for="email">E-mail</label>
-            <input type="text" id="email">
+            <input type="email" id="email_id" name="email" required="required">
             <label for="animal">Dias e Horários</label>
             <input type="text" name="dia_horario" id="dia_horario">
             <label for="mensage">Mensagem</label>
             <textarea type="text" id="mensage"></textarea>
-            <button type="submit" class="button-form">Enviar</button>
+            <button type="submit" class="button-form" onclick="submit_adotar('voluntario')" value="submit_adotar">Enviar</button>
           </form>
         </li>
       </ul>
