@@ -56,6 +56,28 @@
     padding-top: 20px;
   }
 
+  .introduction-doar {
+    background: url("../img/bg-doar.png") no-repeat left;
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+
+  .introduction-adotar {
+    background: url("../img/bg-adote.png") no-repeat center;
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+
+  .introduction-ajudar {
+    background: url("../img/bg-ajudar.png") no-repeat center;
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+
+  .introduction-internal h1 {
+    margin-top: 80px;
+  }
+
   .graph-services:after {
     content: "";
     background: transparent;
