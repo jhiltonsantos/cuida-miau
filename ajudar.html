@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuida Miau - Ajudar</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ajudar.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/form.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/cuida_miau.png" alt="Cuida_Miau" width="80" height="70">
+      </a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="doar.html">Doar</a></li>
+          <li><a href="adotar.html">Adotar</a></li>
+          <li><a href="ajudar.html" class="active-menu">Ajudar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Introdução -->
+  <section class="introduction-internal introduction-ajudar">
+    <div class="container">
+      <h1>Ajude-nos</h1>
+      <p>Juntos podemos ajudar mais animais</p>
+    </div>
+  </section>
+  <!-- Fecha Introdução -->
+
+  <!-- Como Adotar -->
+  <section class="container-ajudar container">
+    <h3 class="subtitle-ajudar">Como doar?</h3>
+    <ul>
+      <li class="grid-8">
+        <h3 class="subtitle-ajudar-internal">Doações no abrigo</h3>
+        <p>Você pode deixar suas doações<br>diretamente no abrigo.</p>
+      </li>
+      <li class="grid-8">
+        <h3 class="subtitle-ajudar-internal">Todos os dias da semana<br>de 10h às 16h</h3>
+        <p>Bairro Bela Vista<br>
+          Teresina - Piaui - 64030-700</p>
+      </li>
+    </ul>
+  </section>
+  <!-- Fechar Como Adotar -->
+
+  <!-- Mapa-->
+  <section class="mapa container">
+    <h3 class="subtitle-ajudar">Visite-nos</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.8036798266617!2d-42.77960188597847!3d-5.135290796273249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e313736925ecb%3A0xbe700cea89eacfbc!2sR.%20Cinco%2C%20068%20-%20Bela%20Vista%2C%20Teresina%20-%20PI!5e0!3m2!1spt-BR!2sbr!4v1625054849651!5m2!1spt-BR!2sbr" width="940" height="280" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+  <!-- Mapa-->
+
+  <!-- Formulario Voluntario -->
+
+  <section class="container-ajudar container">
+    <h3 class="subtitle-ajudar">Voluntarie-se</h3>
+    <h3 class="subtitle-voluntario">O que faz nossos voluntários?</h3>
+    <ul>
+      <li>- Auxílio administrativo</li>
+      <li>- Coleta de doações</li>
+      <li>- Vídeos e fotos</li>
+      <li>- Banho e tosa nos animais</li>
+      <li>- Coleta de doações</li>
+      <li>- Supervisão no pós-adoção de animais</li>
+      <li>- Auxílio em eventos</li>
+    </ul>
+  </section>
+
+  <section class="quero-adotar">
+
+    <div class="container">
+      <h2 class="subtitle">Quero Fazer Parte</h2>
+      <ul>
+        <li class="form-quero-adotar">
+          <form id="form_quero_adotar">
+            <label for="name">Nome</label>
+            <input type="text" id="name_id" name="name" required="required">
+            <label for="email">E-mail</label>
+            <input type="email" id="email_id" name="email" required="required">
+            <label for="animal">Dias e Horários</label>
+            <input type="text" name="dia_horario" id="dia_horario">
+            <label for="mensage">Mensagem</label>
+            <textarea type="text" id="mensage"></textarea>
+            <button type="submit" class="button-form" onclick="submit_adotar('voluntario')" value="submit_adotar">Enviar</button>
+          </form>
+        </li>
+      </ul>
+    </div>
+
+  </section>
+  <!-- Fecha Formulario Voluntario-->
+
+
+  <!-- Footer -->
+  <section class="quote-bg-footer">
+    <blockquote class="quote-header container">
+      <p>“Adotar é encher de esperanças um coração que antes
+        não sabia o que era carinho, e receber em troca um presente único:
+        O Amor Incondicional!!!”</p>
+      <cite>Tatiana Liberado Pricoli</cite>
+    </blockquote>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-8 footer-cuidamiau">
+          <h3>Cuida Miau</h3>
+          <p>CNPJ: 10.456.643/0002-32</p>
+          <a href="doar.html" class="button">Doar</a>
+        </div>
+
+        <div class="grid-4 footer-contato">
+          <h3>Contato</h3>
+          <ul>
+            <li>- 86 9555-666</li>
+            <li>- contato@cuidamiau.com</li>
+            <li>- Bela Vista - Teresina</li>
+          </ul>
+        </div>
+
+        <div class="grid-4 footer-redes">
+          <h3>Redes Socias</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><img src="img/redes-sociais/facebook.png" alt="facebook"></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="img/redes-sociais/instagram.png" alt="instagram"></a></li>
+            <li><a href="https://www.twitter.com/" target="_blank"><img src="img/redes-sociais/twitter.png" alt="twiitter"></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container">
+        <p class="grid-16">©2021 Cuida Miau - Alguns Direitos Reservados</p>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Fecha Footer -->
+
+</body>
+
+</html>
